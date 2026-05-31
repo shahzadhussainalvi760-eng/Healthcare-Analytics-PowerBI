@@ -11,37 +11,29 @@ The project is split into four distinct analytics modules, featuring custom ligh
 * **Key Visuals:** A demographic breakdown of smoking status by gender using a custom Sankey/Flow visual, a doughnut chart for smoking status distribution, and dual-line charts evaluating smoking duration against daily intake across age brackets.
 * **Anatomical Integration:** Interactive organ navigation panel (Heart, Kidney, Liver, Lungs).
 
-👉 **[View Full Resolution Dashboard View](smoking.PNG)**
-![Smoking Analysis Dashboard Layout](smoking.PNG)
-
----
+👉 **[View Full Resolution Dashboard View](smoking_analysis.png)**
+![Smoking Analysis Dashboard Layout](smoking_analysis.png)
 
 ### 2. Transmitted Analysis (Infectious Disease Tracking)
 * **Focus:** Deep dive into global Syphilis trends, monitoring case rates and mortality metrics.
 * **Key Visuals:** A dual-axis time-series line chart tracking New Cases vs. Death Trends, an interactive global choropleth map highlighting disease distribution, and localized bar/lollipop charts showing prevalence and incidence rates across geographic regions (Africa, Americas, Asia, Europe, Oceania).
 
-👉 **[View Full Resolution Dashboard View](transmitted.jpg)**
-![Transmitted Analysis Dashboard Layout](transmitted.jpg)
-
----
+👉 **[View Full Resolution Dashboard View](transmitted_analysis.png)**
+![Transmitted Analysis Dashboard Layout](transmitted_analysis.png)
 
 ### 3. Ulcer Analysis (Chronic Condition Management)
 * **Focus:** Analyzes 250 patients dealing with varying stages of gastrointestinal ulcers.
 * **Key Visuals:** KPI cards track average BMI (26.13) and hemoglobin levels (12.48). Features horizontal bar charts illustrating ulcer depth levels (Deep, Superficial, Erosion), patient age distribution curves, and correlation visuals detailing medication patterns (Aspirin vs. None) alongside symptom patterns (Postprandial, Nocturnal, Fasting).
 
-👉 **[View Full Resolution Dashboard View](ulcer.jpg)**
-![Ulcer Analysis Dashboard Layout](ulcer.jpg)
-
----
+👉 **[View Full Resolution Dashboard View](ulcer_analysis.png)**
+![Ulcer Analysis Dashboard Layout](ulcer_analysis.png)
 
 ### 4. Brain Tumor Analysis (Pathology Insights - Dark Theme)
 * **Focus:** High-impact dark mode layout optimized for analyzing a large-scale cohort of 10K tumor cases.
 * **Key Visuals:** Integrates cross-sectional MRI medical imaging with granular telemetry, including Average Tumor Size (4.38 cm) and the Most Affected Brain Region (Occipital at 17%). Tracks tumor type distributions (Surgery vs. Radiation vs. Chemotherapy) and patient diagnosis volumes over a multi-year trendline (2015–2025).
 
-👉 **[View Full Resolution Dashboard View](brain.jpg)**
-![Brain Tumor Analysis Dashboard Layout](brain.jpg)
-
----
+👉 **[View Full Resolution Dashboard View](brain_tumor_analysis.png)**
+![Brain Tumor Analysis Dashboard Layout](brain_tumor_analysis.png)
 
 ## 🛠️ Tech Stack & Skills Demonstrated
 * **Business Intelligence:** Power BI Desktop
