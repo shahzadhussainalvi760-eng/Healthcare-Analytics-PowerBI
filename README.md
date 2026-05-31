@@ -1,268 +1,45 @@
-# Smoking Risk Analysis Dashboard
+# Healthcare Data Intelligence Dashboard
 
-## Project Overview
-This project analyzes smoking behavior and its impact on health risk factors using interactive Power BI dashboards. The analysis helps identify high-risk groups, smoking patterns, and associated health conditions through data-driven insights.
+An interactive, end-to-end Power BI dashboard designed to transform complex clinical and demographic patient data into actionable healthcare insights. This multi-page application evaluates patient risks, tracks disease trends globally, and visualizes specialized medical conditions using customized UI/UX design architectures.
 
-## Objectives
-- Analyze smoking frequency and demographic trends
-- Identify high-risk age groups
-- Explore relationships between smoking and health conditions
-- Monitor patient health indicators
+## 📊 Dashboard Views & Core Features
 
-## Dashboard Features
-- Smoking distribution analysis
-- Age and gender comparison
-- Risk category segmentation
-- KPI cards for patient statistics
-- Interactive filters and slicers
+The project is split into four distinct analytics modules, featuring custom light and dark themes optimized for clinical readability:
 
-## Tools & Technologies
-- Power BI
-- SQL
-- Excel / CSV
-- DAX
-- Power Query
+### 1. Smoking Analysis (Lifestyle Risk Factors)
+* **Focus:** Tracks patient volume (342 total patients) against risk factors like average age (53.3) and BMI (29.5).
+* **Key Visuals:** A demographic breakdown of smoking status by gender using a custom Sankey/Flow visual, a doughnut chart for smoking status distribution, and dual-line charts evaluating smoking duration against daily intake across age brackets.
+* **Anatomical Integration:** Interactive organ navigation panel (Heart, Kidney, Liver, Lungs).
 
-## Key Insights
-- Higher smoking rates observed in specific age groups
-- Strong correlation between smoking and health complications
-- Risk levels vary significantly across demographics
+### 2. Transmitted Analysis (Infectious Disease Tracking)
+* **Focus:** Deep dive into global Syphilis trends, monitoring case rates and mortality metrics.
+* **Key Visuals:** A dual-axis time-series line chart tracking New Cases vs. Death Trends, an interactive global choropleth map highlighting disease distribution, and localized bar/lollipop charts showing prevalence and incidence rates across geographic regions (Africa, Americas, Asia, Europe, Oceania).
 
-## Dataset Information
-- Patient demographic data
-- Smoking habits
-- Medical indicators
-- Health risk categories
+### 3. Ulcer Analysis (Chronic Condition Management)
+* **Focus:** Analyzes 250 patients dealing with varying stages of gastrointestinal ulcers.
+* **Key Visuals:** KPI cards track average BMI (26.13) and hemoglobin levels (12.48). Features horizontal bar charts illustrating ulcer depth levels (Deep, Superficial, Erosion), patient age distribution curves, and correlation visuals detailing medication patterns (Aspirin vs. None) alongside symptom patterns (Postprandial, Nocturnal, Fasting).
 
-## Repository Structure
-├── Dataset  
-├── PowerBI Dashboard  
-├── SQL Queries  
-├── Images  
-└── README.md
+### 4. Brain Tumor Analysis (Pathology Insights - Dark Theme)
+* **Focus:** High-impact dark mode layout optimized for analyzing a large-scale cohort of 10K tumor cases.
+* **Key Visuals:** Integrates cross-sectional MRI medical imaging with granular telemetry, including Average Tumor Size (4.38 cm) and the Most Affected Brain Region (Occipital at 17%). Tracks tumor type distributions (Surgery vs. Radiation vs. Chemotherapy) and patient diagnosis volumes over a multi-year trendline (2015–2025).
 
-## Dashboard Preview
-(Add dashboard screenshots here)
+---
 
-## Future Improvements
-- Predictive risk modeling
-- Machine learning integration
-- Real-time healthcare monitoring
+## 🛠️ Tech Stack & Skills Demonstrated
+* **Business Intelligence:** Power BI Desktop
+* **Data Modeling:** Star schema architecture with robust table relationships.
+* **DAX (Data Analysis Expressions):** Engineered custom measures for running averages, regional prevalence rates, and dynamic KPI tracking.
+* **UI/UX Design:** Implemented tab-based page navigation, custom icon integration, conditional formatting, and cohesive light/dark color palettes to enhance executive scannability.
 
+---
 
-## Author
-Shehzad Husssain Alvi 
-# Ulcer Risk Analysis Dashboard
+## 📂 Project Structure
+* `Healthcare_Data_Intelligence_Dashboard.pbix`: The core Power BI application file containing data models, DAX measures, and visual layouts.
+* `Assets/`: Houses high-resolution dashboard screenshots utilized for documentation.
 
-## Project Overview
-This project focuses on analyzing ulcer risk factors, patient history, and lifestyle patterns using Power BI visual analytics. The dashboard supports healthcare professionals in identifying potential ulcer-related risks.
+---
 
-## Objectives
-- Analyze ulcer risk indicators
-- Study lifestyle and dietary effects
-- Identify high-risk patient groups
-- Improve healthcare decision-making
-
-## Dashboard Features
-- Ulcer severity analysis
-- Lifestyle risk visualization
-- Age and gender breakdown
-- Patient health KPIs
-- Interactive dashboard filters
-
-## Tools & Technologies
-- Power BI
-- SQL
-- Excel
-- DAX
-- Power Query
-
-## Key Insights
-- Dietary habits strongly influence ulcer risk
-- Certain age groups show higher ulcer prevalence
-- Lifestyle factors increase patient vulnerability
-
-## Dataset Information
-- Patient records
-- Medical history
-- Lifestyle indicators
-- Clinical observations
-
-## Repository Structure
-├── Dataset  
-├── Dashboard Files  
-├── Reports  
-├── Images  
-└── README.md
-
-## Dashboard Preview
-(Add screenshots here)
-
-## Future Improvements
-- AI-based ulcer prediction
-- Automated risk classification
-- Advanced statistical analysis
-
-## Author
-Shehzad Hussain
-# Brain Tumor Analysis Dashboard
-
-## Project Overview
-This project provides analytical insights into brain tumor patient data using Power BI dashboards. It helps visualize tumor classifications, patient demographics, treatment patterns, and diagnostic trends.
-
-## Objectives
-- Analyze tumor distribution patterns
-- Study patient demographics
-- Monitor treatment effectiveness
-- Support healthcare analytics
-
-## Dashboard Features
-- Tumor classification analysis
-- Survival and treatment metrics
-- Gender and age analysis
-- Interactive KPI dashboards
-- Medical trend visualization
-
-## Tools & Technologies
-- Power BI
-- Python
-- SQL
-- DAX
-- Excel
-
-## Key Insights
-- Certain tumor types dominate specific age groups
-- Treatment outcomes vary across classifications
-- Early diagnosis improves survival trends
-
-## Dataset Information
-- MRI-related data
-- Tumor classification records
-- Patient demographics
-- Treatment information
-
-## Repository Structure
-├── Dataset  
-├── PowerBI Dashboard  
-├── Python Scripts  
-├── Reports  
-└── README.md
-
-## Dashboard Preview
-(Add screenshots here)
-
-## Future Improvements
-- Deep learning integration
-- MRI image analytics
-- Predictive healthcare models
-
-## Author
-Shehzad Hussain
-# Sex Transmitted Disease (STD) Analysis Dashboard
-
-## Project Overview
-This project analyzes sexually transmitted disease trends, patient demographics, and healthcare indicators using Power BI dashboards. The goal is to support awareness, monitoring, and healthcare decision-making.
-
-## Objectives
-- Analyze STD prevalence trends
-- Identify high-risk demographics
-- Study infection patterns
-- Monitor healthcare indicators
-
-## Dashboard Features
-- Disease trend analysis
-- Gender and age segmentation
-- Geographic risk distribution
-- KPI performance indicators
-- Interactive filtering system
-
-## Tools & Technologies
-- Power BI
-- SQL
-- Excel
-- DAX
-- Power Query
-
-## Key Insights
-- Infection rates vary across demographic groups
-- Awareness and prevention impact risk levels
-- Data visualization improves healthcare understanding
-
-## Dataset Information
-- Patient demographics
-- Disease records
-- Healthcare indicators
-- Risk classifications
-
-## Repository Structure
-├── Dataset  
-├── Dashboard  
-├── SQL Scripts  
-├── Images  
-└── README.md
-
-## Dashboard Preview
-(Add screenshots here)
-
-## Future Improvements
-- Predictive healthcare analytics
-- Real-time monitoring
-- AI-driven risk detection
-
-## Author
-Shehzad Hussain
-
-# Sex Transmitted Disease (STD) Analysis Dashboard
-
-## Project Overview
-This project analyzes sexually transmitted disease trends, patient demographics, and healthcare indicators using Power BI dashboards. The goal is to support awareness, monitoring, and healthcare decision-making.
-
-## Objectives
-- Analyze STD prevalence trends
-- Identify high-risk demographics
-- Study infection patterns
-- Monitor healthcare indicators
-
-## Dashboard Features
-- Disease trend analysis
-- Gender and age segmentation
-- Geographic risk distribution
-- KPI performance indicators
-- Interactive filtering system
-
-## Tools & Technologies
-- Power BI
-- SQL
-- Excel
-- DAX
-- Power Query
-
-## Key Insights
-- Infection rates vary across demographic groups
-- Awareness and prevention impact risk levels
-- Data visualization improves healthcare understanding
-
-## Dataset Information
-- Patient demographics
-- Disease records
-- Healthcare indicators
-- Risk classifications
-
-## Repository Structure
-├── Dataset  
-├── Dashboard  
-├── SQL Scripts  
-├── Images  
-└── README.md
-
-## Dashboard Preview
-(Add screenshots here)
-
-## Future Improvements
-- Predictive healthcare analytics
-- Real-time monitoring
-- AI-driven risk detection
-
-## Author
-Shehzad Hussain
-
+## 💡 Key Clinical Insights Delivered
+* **Demographic Vulnerabilities:** Identified specific age brackets (e.g., 69+) experiencing sharp spikes in high blood pressure and cholesterol risks, guiding preventative care targeting.
+* **Geographic Priorities:** Visualized regional data showing Africa leading in prevalence rate (55.07%), isolating high-priority zones for medical resource allocation.
+* **Treatment Pathways:** Discovered that over 59% of identified brain tumor cases utilize surgical intervention pathways, providing crucial operational volume forecasts for hospital resource planning.
