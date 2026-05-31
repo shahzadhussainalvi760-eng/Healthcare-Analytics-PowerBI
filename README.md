@@ -43,3 +43,6 @@ The project is split into four distinct analytics modules, featuring custom ligh
 * **Demographic Vulnerabilities:** Identified specific age brackets (e.g., 69+) experiencing sharp spikes in high blood pressure and cholesterol risks, guiding preventative care targeting.
 * **Geographic Priorities:** Visualized regional data showing Africa leading in prevalence rate (55.07%), isolating high-priority zones for medical resource allocation.
 * **Treatment Pathways:** Discovered that over 59% of identified brain tumor cases utilize surgical intervention pathways, providing crucial operational volume forecasts for hospital resource planning.
+
+Author : Shehzad Hussain Alvi 
+
