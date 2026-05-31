@@ -45,15 +45,18 @@ The project is split into four distinct analytics modules, featuring custom ligh
 
 ## 📂 Project Structure & Repository Layout
 
-👉 **[View GitHub Directory Layout](image_96bea3.png)**
-![Repository File Architecture](image_96bea3.png)
-
-* `Healthcare_Data_Intelligence_Dashboard.pbix`: The core Power BI application file containing data models, DAX measures, and visual layouts.
-* `Health Dataset.csv` / `Ulcer Dataset.csv` / `Organs.csv` / `condition.csv`: Core relational data sources used to populate the schemas.
-* `Health Image Dataset.csv` / `Image Dataset.csv` / `Tumor Images.csv`: Base image mapping datasets enabling clinical UI visual triggers.
-* `Measures and Columns Formula.txt`: Documentation of key DAX equations used throughout the build.
-
----
+* 📊 **[Healthcare_Data_Intelligence_Dashboard.pbix](Healthcare_Data_Intelligence_Dashboard.pbix)**: The core Power BI application file containing data models, DAX measures, and visual layouts.
+* 📂 **Core Relational Datasets:**
+  * 📄 [Health Dataset.csv](Health%20Dataset.csv)
+  * 📄 [Ulcer Dataset.csv](Ulcer%20Dataset.csv)
+  * 📄 [Organs.csv](Organs.csv)
+  * 📄 [condition.csv](condition.csv)
+* 🖼️ **Image Mapping Datasets (Clinical UI Triggers):**
+  * 📄 [Image Dataset.csv](Image%20Dataset.csv)
+  * 📄 [Health Image Dataset.csv](Health%20Image%20Dataset.csv)
+  * 📄 [Tumor Images.csv](Tumor%20Images.csv)
+  * 📄 [Ulcer Image Dataset.csv](Ulcer%20Image%20Dataset.csv)
+* 📝 **[Measures and Columns Formula.txt](Measures%20and%20Columns%20Formula.txt)**: Documentation of key DAX equations used throughout the build.
 
 ## 💡 Key Clinical Insights Delivered
 * **Demographic Vulnerabilities:** Identified specific age brackets (e.g., 69+) experiencing sharp spikes in high blood pressure and cholesterol risks, guiding preventative care targeting.
