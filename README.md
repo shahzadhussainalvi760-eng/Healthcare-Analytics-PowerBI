@@ -1,0 +1,2 @@
+# Interactive-Power-BI-Dashboard-for-Patient-Financial-and-Operational-Healthcare-Analytics
+Developed an interactive Healthcare Analytics Dashboard in Microsoft Power BI to analyze patient trends, hospital performance, treatment outcomes, and operational KPIs. The dashboard provides real-time insights through data visualization, enabling data-driven decision-making for healthcare management and performance monitoring.
