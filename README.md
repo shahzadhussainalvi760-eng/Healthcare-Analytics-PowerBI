@@ -11,17 +11,35 @@ The project is split into four distinct analytics modules, featuring custom ligh
 * **Key Visuals:** A demographic breakdown of smoking status by gender using a custom Sankey/Flow visual, a doughnut chart for smoking status distribution, and dual-line charts evaluating smoking duration against daily intake across age brackets.
 * **Anatomical Integration:** Interactive organ navigation panel (Heart, Kidney, Liver, Lungs).
 
+👉 **[View Full Resolution Dashboard View](smoking.PNG)**
+![Smoking Analysis Dashboard Layout](smoking.PNG)
+
+---
+
 ### 2. Transmitted Analysis (Infectious Disease Tracking)
 * **Focus:** Deep dive into global Syphilis trends, monitoring case rates and mortality metrics.
 * **Key Visuals:** A dual-axis time-series line chart tracking New Cases vs. Death Trends, an interactive global choropleth map highlighting disease distribution, and localized bar/lollipop charts showing prevalence and incidence rates across geographic regions (Africa, Americas, Asia, Europe, Oceania).
+
+👉 **[View Full Resolution Dashboard View](transmitted.jpg)**
+![Transmitted Analysis Dashboard Layout](transmitted.jpg)
+
+---
 
 ### 3. Ulcer Analysis (Chronic Condition Management)
 * **Focus:** Analyzes 250 patients dealing with varying stages of gastrointestinal ulcers.
 * **Key Visuals:** KPI cards track average BMI (26.13) and hemoglobin levels (12.48). Features horizontal bar charts illustrating ulcer depth levels (Deep, Superficial, Erosion), patient age distribution curves, and correlation visuals detailing medication patterns (Aspirin vs. None) alongside symptom patterns (Postprandial, Nocturnal, Fasting).
 
+👉 **[View Full Resolution Dashboard View](ulcer.jpg)**
+![Ulcer Analysis Dashboard Layout](ulcer.jpg)
+
+---
+
 ### 4. Brain Tumor Analysis (Pathology Insights - Dark Theme)
 * **Focus:** High-impact dark mode layout optimized for analyzing a large-scale cohort of 10K tumor cases.
 * **Key Visuals:** Integrates cross-sectional MRI medical imaging with granular telemetry, including Average Tumor Size (4.38 cm) and the Most Affected Brain Region (Occipital at 17%). Tracks tumor type distributions (Surgery vs. Radiation vs. Chemotherapy) and patient diagnosis volumes over a multi-year trendline (2015–2025).
+
+👉 **[View Full Resolution Dashboard View](brain.jpg)**
+![Brain Tumor Analysis Dashboard Layout](brain.jpg)
 
 ---
 
@@ -33,9 +51,15 @@ The project is split into four distinct analytics modules, featuring custom ligh
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure & Repository Layout
+
+👉 **[View GitHub Directory Layout](image_96bea3.png)**
+![Repository File Architecture](image_96bea3.png)
+
 * `Healthcare_Data_Intelligence_Dashboard.pbix`: The core Power BI application file containing data models, DAX measures, and visual layouts.
-* `Assets/`: Houses high-resolution dashboard screenshots utilized for documentation.
+* `Health Dataset.csv` / `Ulcer Dataset.csv` / `Organs.csv` / `condition.csv`: Core relational data sources used to populate the schemas.
+* `Health Image Dataset.csv` / `Image Dataset.csv` / `Tumor Images.csv`: Base image mapping datasets enabling clinical UI visual triggers.
+* `Measures and Columns Formula.txt`: Documentation of key DAX equations used throughout the build.
 
 ---
 
@@ -43,6 +67,3 @@ The project is split into four distinct analytics modules, featuring custom ligh
 * **Demographic Vulnerabilities:** Identified specific age brackets (e.g., 69+) experiencing sharp spikes in high blood pressure and cholesterol risks, guiding preventative care targeting.
 * **Geographic Priorities:** Visualized regional data showing Africa leading in prevalence rate (55.07%), isolating high-priority zones for medical resource allocation.
 * **Treatment Pathways:** Discovered that over 59% of identified brain tumor cases utilize surgical intervention pathways, providing crucial operational volume forecasts for hospital resource planning.
-
-Author : Shehzad Hussain Alvi 
-
